@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: lightblue;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #window {
+    width: 1200px;
+    margin: auto;
+    padding: 3px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  #menu {
+    float: left;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: mintcream;
+  }
+  #title {
+    position: top;
+    background-color: inherit;
+  }
+  #contents {
+      float: right;
+    position: static;
+    width: 957px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: mintcream;
+  }
+  #image {
+      float: right;
+      border: 1px blue solid;
+      padding: 3px;
+      border-radius: 5px;
+      width: 200px;
+      height: 300px;
+  }
+  #bio {
+      border: 1px blue solid;
+      border-radius: 5px;
+      padding: 15px;
+      background-color: transparent;
+      clear: left;
+  }
+  #profimg {
+      margin: 10px;
+      padding: 3px;
+      border-radius: 5px;
+      border: 1px blue solid;
+      float: left;
+      width: 200px;
+      height: 300px;
+  }
+  #price {
+      color: green;
+      font-size: 22px;
+  }
+  #buybutton {
+    width: 50px;
+    height: 50px;
+  }
+  #proddesc {
+      clear: both;
+  }
+  table {
+      width: 100%;
+  }
+  table, td, th {
+      border: blue 1px solid;
+      padding: 5px;
+      border-radius: 3px;
+      text-align: center;
+  }
+  th {
+      color: white;
+      background-color: blue;
+  }
+  
